@@ -11,13 +11,23 @@ export default {
     {
       title: "Tagline",
       name: "tagline",
-      type: "string",
+      type: "array",
+      of: [
+        {
+          type: "block",
+        },
+      ],
     },
     {
-      title: "Description",
-      name: "description",
-      type: "string",
-    },
+        title: "Beskrivning",
+        name: "description",
+        type: "array",
+        of: [
+          {
+            type: "block",
+          },
+        ],
+      },
     {
       title: "Image",
       name: "image",

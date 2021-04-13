@@ -16,6 +16,7 @@ import priskategori from "./priskategori.js"
 import kategori from "./priskategoriItem.js"
 import forsbergs from "./forsbergs.js"
 import vemarjag from "./vemarjag.js"
+import prio from "./prio.js"
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
   // We name our schema
@@ -38,5 +39,6 @@ export default createSchema({
     kategori,
     forsbergs,
     vemarjag,
+    prio,
   ]),
 })

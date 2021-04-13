@@ -35,5 +35,11 @@ export default {
       type: "array",
       of: [{ type: "menuItem" }],
     },
+    {
+      title: "Prio",
+      name: "prio",
+      type: "array",
+      of: [{ type: "prio" }],
+    },
   ],
 }
