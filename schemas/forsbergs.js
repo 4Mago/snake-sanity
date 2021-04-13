@@ -39,7 +39,7 @@ export default {
       title: "Prio",
       name: "prio",
       type: "array",
-      of: [{ type: "prio" }],
+      of: [{ type: "priority" }],
     },
   ],
 }

@@ -1,6 +1,6 @@
 export default {
-	title: 'Menu Item',
-	name: 'menuItem',
+	title: 'Prioritet',
+	name: 'priority',
 	type: 'object',
 	fields: [
 		{
